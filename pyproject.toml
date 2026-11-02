@@ -7,7 +7,9 @@ authors = [
     { name = "Alec Bossard", email = "alec.bossard@utoulouse.fr" }
 ]
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "numpy>=2.2.6",
+]
 
 [project.scripts]
 tp-multithreading = "tp_multithreading:main"
